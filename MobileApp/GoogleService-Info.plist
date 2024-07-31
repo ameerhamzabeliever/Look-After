@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>509743029148-tof91hao4d94aihdpdek4bh9u189uh0g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.509743029148-tof91hao4d94aihdpdek4bh9u189uh0g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDJ7GVTKyNLdBO_6yrrg3jW02EQI11C7Wc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>509743029148</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Tecspine.VillageMaker</string>
+	<key>PROJECT_ID</key>
+	<string>village-maker-71613</string>
+	<key>STORAGE_BUCKET</key>
+	<string>village-maker-71613.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:509743029148:ios:6f161df2e138814bdec659</string>
+</dict>
+</plist>

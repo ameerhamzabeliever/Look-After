@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Manrope-600.ttf">
+            <string>Manrope-SemiBold</string>
+        </array>
+        <array key="Manrope-800.ttf">
+            <string>Manrope-ExtraBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FirendRequestCell" rowHeight="89" id="KGk-i7-Jjw" customClass="FirendRequestCell" customModule="MobileApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="394" height="89"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="394" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s7D-Yd-JV5">
+                        <rect key="frame" x="8" y="0.0" width="374" height="77"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user-Placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="GOY-h5-luc">
+                                <rect key="frame" x="8" y="18.5" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="US4-M8-p1w"/>
+                                    <constraint firstAttribute="width" constant="40" id="jwL-61-qn1"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gretchen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCb-am-kwS">
+                                <rect key="frame" x="56" y="18.5" width="310" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="jFa-YK-Lzj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-ExtraBold" family="Manrope" pointSize="14"/>
+                                <color key="textColor" name="darkthemeofapp"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="gretchen wants to be your friend" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgM-4Y-bBL">
+                                <rect key="frame" x="56" y="42.5" width="310" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="yo7-HI-i7S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cJN-eP-Dao">
+                                <rect key="frame" x="266" y="26" width="100" height="25"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tu-qq-Y7C">
+                                        <rect key="frame" x="23" y="12.5" width="0.0" height="0.0"/>
+                                        <color key="backgroundColor" red="0.011764705882352941" green="0.51764705882352935" blue="0.5490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" id="FAG-Vy-0k6"/>
+                                            <constraint firstAttribute="height" id="UTl-v4-CFv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="10"/>
+                                        <state key="normal" title="ACCEPT">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Axq-6H-8cd">
+                                        <rect key="frame" x="28" y="2" width="70" height="21"/>
+                                        <color key="backgroundColor" red="0.82745098039215681" green="0.2196078431372549" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="XMQ-tB-mld"/>
+                                            <constraint firstAttribute="width" constant="70" id="lUM-lz-2j8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Manrope-ExtraBold" family="Manrope" pointSize="10"/>
+                                        <state key="normal" title="REMOVE">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Axq-6H-8cd" firstAttribute="centerY" secondItem="cJN-eP-Dao" secondAttribute="centerY" id="2jz-Zv-DPp"/>
+                                    <constraint firstAttribute="height" constant="25" id="Kil-ws-bWm"/>
+                                    <constraint firstAttribute="width" constant="100" id="LQ4-Wr-dwl"/>
+                                    <constraint firstAttribute="trailing" secondItem="Axq-6H-8cd" secondAttribute="trailing" constant="2" id="Srf-hr-lwp"/>
+                                    <constraint firstItem="Axq-6H-8cd" firstAttribute="leading" secondItem="1tu-qq-Y7C" secondAttribute="trailing" constant="5" id="oSu-ZQ-7Mf"/>
+                                    <constraint firstItem="1tu-qq-Y7C" firstAttribute="centerY" secondItem="cJN-eP-Dao" secondAttribute="centerY" id="p4A-TU-xml"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cJN-eP-Dao" secondAttribute="trailing" constant="8" id="21U-mW-Nwr"/>
+                            <constraint firstItem="cJN-eP-Dao" firstAttribute="centerY" secondItem="s7D-Yd-JV5" secondAttribute="centerY" id="2PW-1w-PhJ"/>
+                            <constraint firstItem="XCb-am-kwS" firstAttribute="top" secondItem="GOY-h5-luc" secondAttribute="top" id="3ua-ZC-IHg"/>
+                            <constraint firstItem="XCb-am-kwS" firstAttribute="leading" secondItem="GOY-h5-luc" secondAttribute="trailing" constant="8" id="8Wj-hK-6Ry"/>
+                            <constraint firstItem="rgM-4Y-bBL" firstAttribute="top" secondItem="XCb-am-kwS" secondAttribute="bottom" id="8r5-bK-V7k"/>
+                            <constraint firstItem="GOY-h5-luc" firstAttribute="centerY" secondItem="s7D-Yd-JV5" secondAttribute="centerY" id="F99-hh-Tj0"/>
+                            <constraint firstAttribute="trailing" secondItem="XCb-am-kwS" secondAttribute="trailing" constant="8" id="Jpo-cy-ofC"/>
+                            <constraint firstItem="GOY-h5-luc" firstAttribute="leading" secondItem="s7D-Yd-JV5" secondAttribute="leading" constant="8" id="Vq8-Dm-sfp"/>
+                            <constraint firstAttribute="width" constant="374" id="YeL-JG-RQW"/>
+                            <constraint firstItem="rgM-4Y-bBL" firstAttribute="trailing" secondItem="XCb-am-kwS" secondAttribute="trailing" id="fTj-0z-Nvr"/>
+                            <constraint firstItem="rgM-4Y-bBL" firstAttribute="leading" secondItem="XCb-am-kwS" secondAttribute="leading" id="fVV-JO-lEy"/>
+                            <constraint firstAttribute="height" constant="77" id="rBT-Gv-3mZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.8461096883" green="0.8786097169" blue="0.87868708370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="s7D-Yd-JV5" secondAttribute="bottom" constant="8" id="IWQ-cz-tn6"/>
+                    <constraint firstItem="s7D-Yd-JV5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="LER-Q1-ygn"/>
+                    <constraint firstItem="s7D-Yd-JV5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="eRW-HY-fsn"/>
+                    <constraint firstAttribute="trailing" secondItem="s7D-Yd-JV5" secondAttribute="trailing" constant="12" id="wrG-Pv-PEl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="acceptBtnOutlet" destination="1tu-qq-Y7C" id="Id8-t1-Nsy"/>
+                <outlet property="friendRequestLbl" destination="rgM-4Y-bBL" id="zu8-gF-vZx"/>
+                <outlet property="friendView" destination="s7D-Yd-JV5" id="hl6-C6-27f"/>
+                <outlet property="rejectBtnOutlet" destination="Axq-6H-8cd" id="hoz-ZY-Ufw"/>
+                <outlet property="userNameLbl" destination="XCb-am-kwS" id="orJ-Gp-IeE"/>
+                <outlet property="userProfileImage" destination="GOY-h5-luc" id="lXd-jm-c7e"/>
+            </connections>
+            <point key="canvasLocation" x="69.565217391304358" y="11.71875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="user-Placeholder" width="512" height="512"/>
+        <namedColor name="darkthemeofapp">
+            <color red="0.012000000104308128" green="0.51800000667572021" blue="0.54900002479553223" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
